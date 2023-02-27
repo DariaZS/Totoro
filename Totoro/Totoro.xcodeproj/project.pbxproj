@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DF4F0129AC6DDD00FDCFFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F0029AC6DDD00FDCFFE /* AppDelegate.swift */; };
+		66DF4F0329AC6DDD00FDCFFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F0229AC6DDD00FDCFFE /* SceneDelegate.swift */; };
+		66DF4F0529AC6DDD00FDCFFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F0429AC6DDD00FDCFFE /* ViewController.swift */; };
+		66DF4F0829AC6DDD00FDCFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DF4F0629AC6DDD00FDCFFE /* Main.storyboard */; };
+		66DF4F0A29AC6DDF00FDCFFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DF4F0929AC6DDF00FDCFFE /* Assets.xcassets */; };
+		66DF4F0D29AC6DDF00FDCFFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DF4F0B29AC6DDF00FDCFFE /* LaunchScreen.storyboard */; };
+		66DF4F1829AC6DDF00FDCFFE /* TotoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F1729AC6DDF00FDCFFE /* TotoroTests.swift */; };
+		66DF4F2229AC6DDF00FDCFFE /* TotoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F2129AC6DDF00FDCFFE /* TotoroUITests.swift */; };
+		66DF4F2429AC6DDF00FDCFFE /* TotoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F2329AC6DDF00FDCFFE /* TotoroUITestsLaunchTests.swift */; };
+		66DF4F3529AC7A6A00FDCFFE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F3429AC7A6900FDCFFE /* DetailViewController.swift */; };
+		66DF4F3729AC98F300FDCFFE /* Choices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DF4F3629AC98F300FDCFFE /* Choices.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DF4F1429AC6DDF00FDCFFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DF4EF529AC6DDD00FDCFFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DF4EFC29AC6DDD00FDCFFE;
+			remoteInfo = Totoro;
+		};
+		66DF4F1E29AC6DDF00FDCFFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DF4EF529AC6DDD00FDCFFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DF4EFC29AC6DDD00FDCFFE;
+			remoteInfo = Totoro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66DF4EFD29AC6DDD00FDCFFE /* Totoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Totoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DF4F0029AC6DDD00FDCFFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66DF4F0229AC6DDD00FDCFFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66DF4F0429AC6DDD00FDCFFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66DF4F0729AC6DDD00FDCFFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66DF4F0929AC6DDF00FDCFFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66DF4F0C29AC6DDF00FDCFFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66DF4F0E29AC6DDF00FDCFFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DF4F1329AC6DDF00FDCFFE /* TotoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DF4F1729AC6DDF00FDCFFE /* TotoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotoroTests.swift; sourceTree = "<group>"; };
+		66DF4F1D29AC6DDF00FDCFFE /* TotoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TotoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DF4F2129AC6DDF00FDCFFE /* TotoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotoroUITests.swift; sourceTree = "<group>"; };
+		66DF4F2329AC6DDF00FDCFFE /* TotoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66DF4F3429AC7A6900FDCFFE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		66DF4F3629AC98F300FDCFFE /* Choices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choices.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DF4EFA29AC6DDD00FDCFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF4F1029AC6DDF00FDCFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF4F1A29AC6DDF00FDCFFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DF4EF429AC6DDD00FDCFFE = {
+			isa = PBXGroup;
+			children = (
+				66DF4EFF29AC6DDD00FDCFFE /* Totoro */,
+				66DF4F1629AC6DDF00FDCFFE /* TotoroTests */,
+				66DF4F2029AC6DDF00FDCFFE /* TotoroUITests */,
+				66DF4EFE29AC6DDD00FDCFFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DF4EFE29AC6DDD00FDCFFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DF4EFD29AC6DDD00FDCFFE /* Totoro.app */,
+				66DF4F1329AC6DDF00FDCFFE /* TotoroTests.xctest */,
+				66DF4F1D29AC6DDF00FDCFFE /* TotoroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DF4EFF29AC6DDD00FDCFFE /* Totoro */ = {
+			isa = PBXGroup;
+			children = (
+				66DF4F3629AC98F300FDCFFE /* Choices.swift */,
+				66DF4F3429AC7A6900FDCFFE /* DetailViewController.swift */,
+				66DF4F0029AC6DDD00FDCFFE /* AppDelegate.swift */,
+				66DF4F0229AC6DDD00FDCFFE /* SceneDelegate.swift */,
+				66DF4F0429AC6DDD00FDCFFE /* ViewController.swift */,
+				66DF4F0629AC6DDD00FDCFFE /* Main.storyboard */,
+				66DF4F0929AC6DDF00FDCFFE /* Assets.xcassets */,
+				66DF4F0B29AC6DDF00FDCFFE /* LaunchScreen.storyboard */,
+				66DF4F0E29AC6DDF00FDCFFE /* Info.plist */,
+			);
+			path = Totoro;
+			sourceTree = "<group>";
+		};
+		66DF4F1629AC6DDF00FDCFFE /* TotoroTests */ = {
+			isa = PBXGroup;
+			children = (
+				66DF4F1729AC6DDF00FDCFFE /* TotoroTests.swift */,
+			);
+			path = TotoroTests;
+			sourceTree = "<group>";
+		};
+		66DF4F2029AC6DDF00FDCFFE /* TotoroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66DF4F2129AC6DDF00FDCFFE /* TotoroUITests.swift */,
+				66DF4F2329AC6DDF00FDCFFE /* TotoroUITestsLaunchTests.swift */,
+			);
+			path = TotoroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DF4EFC29AC6DDD00FDCFFE /* Totoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DF4F2729AC6DDF00FDCFFE /* Build configuration list for PBXNativeTarget "Totoro" */;
+			buildPhases = (
+				66DF4EF929AC6DDD00FDCFFE /* Sources */,
+				66DF4EFA29AC6DDD00FDCFFE /* Frameworks */,
+				66DF4EFB29AC6DDD00FDCFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Totoro;
+			productName = Totoro;
+			productReference = 66DF4EFD29AC6DDD00FDCFFE /* Totoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66DF4F1229AC6DDF00FDCFFE /* TotoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DF4F2A29AC6DDF00FDCFFE /* Build configuration list for PBXNativeTarget "TotoroTests" */;
+			buildPhases = (
+				66DF4F0F29AC6DDF00FDCFFE /* Sources */,
+				66DF4F1029AC6DDF00FDCFFE /* Frameworks */,
+				66DF4F1129AC6DDF00FDCFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DF4F1529AC6DDF00FDCFFE /* PBXTargetDependency */,
+			);
+			name = TotoroTests;
+			productName = TotoroTests;
+			productReference = 66DF4F1329AC6DDF00FDCFFE /* TotoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66DF4F1C29AC6DDF00FDCFFE /* TotoroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DF4F2D29AC6DDF00FDCFFE /* Build configuration list for PBXNativeTarget "TotoroUITests" */;
+			buildPhases = (
+				66DF4F1929AC6DDF00FDCFFE /* Sources */,
+				66DF4F1A29AC6DDF00FDCFFE /* Frameworks */,
+				66DF4F1B29AC6DDF00FDCFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DF4F1F29AC6DDF00FDCFFE /* PBXTargetDependency */,
+			);
+			name = TotoroUITests;
+			productName = TotoroUITests;
+			productReference = 66DF4F1D29AC6DDF00FDCFFE /* TotoroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DF4EF529AC6DDD00FDCFFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					66DF4EFC29AC6DDD00FDCFFE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					66DF4F1229AC6DDF00FDCFFE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 66DF4EFC29AC6DDD00FDCFFE;
+					};
+					66DF4F1C29AC6DDF00FDCFFE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 66DF4EFC29AC6DDD00FDCFFE;
+					};
+				};
+			};
+			buildConfigurationList = 66DF4EF829AC6DDD00FDCFFE /* Build configuration list for PBXProject "Totoro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66DF4EF429AC6DDD00FDCFFE;
+			productRefGroup = 66DF4EFE29AC6DDD00FDCFFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DF4EFC29AC6DDD00FDCFFE /* Totoro */,
+				66DF4F1229AC6DDF00FDCFFE /* TotoroTests */,
+				66DF4F1C29AC6DDF00FDCFFE /* TotoroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DF4EFB29AC6DDD00FDCFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DF4F0D29AC6DDF00FDCFFE /* LaunchScreen.storyboard in Resources */,
+				66DF4F0A29AC6DDF00FDCFFE /* Assets.xcassets in Resources */,
+				66DF4F0829AC6DDD00FDCFFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF4F1129AC6DDF00FDCFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF4F1B29AC6DDF00FDCFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DF4EF929AC6DDD00FDCFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DF4F0529AC6DDD00FDCFFE /* ViewController.swift in Sources */,
+				66DF4F0129AC6DDD00FDCFFE /* AppDelegate.swift in Sources */,
+				66DF4F0329AC6DDD00FDCFFE /* SceneDelegate.swift in Sources */,
+				66DF4F3729AC98F300FDCFFE /* Choices.swift in Sources */,
+				66DF4F3529AC7A6A00FDCFFE /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF4F0F29AC6DDF00FDCFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DF4F1829AC6DDF00FDCFFE /* TotoroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DF4F1929AC6DDF00FDCFFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DF4F2229AC6DDF00FDCFFE /* TotoroUITests.swift in Sources */,
+				66DF4F2429AC6DDF00FDCFFE /* TotoroUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66DF4F1529AC6DDF00FDCFFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DF4EFC29AC6DDD00FDCFFE /* Totoro */;
+			targetProxy = 66DF4F1429AC6DDF00FDCFFE /* PBXContainerItemProxy */;
+		};
+		66DF4F1F29AC6DDF00FDCFFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DF4EFC29AC6DDD00FDCFFE /* Totoro */;
+			targetProxy = 66DF4F1E29AC6DDF00FDCFFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66DF4F0629AC6DDD00FDCFFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DF4F0729AC6DDD00FDCFFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66DF4F0B29AC6DDF00FDCFFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66DF4F0C29AC6DDF00FDCFFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66DF4F2529AC6DDF00FDCFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66DF4F2629AC6DDF00FDCFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66DF4F2829AC6DDF00FDCFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4K6Q94R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Totoro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.Totoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DF4F2929AC6DDF00FDCFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4K6Q94R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Totoro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.Totoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66DF4F2B29AC6DDF00FDCFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4K6Q94R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.TotoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Totoro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Totoro";
+			};
+			name = Debug;
+		};
+		66DF4F2C29AC6DDF00FDCFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4K6Q94R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.TotoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Totoro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Totoro";
+			};
+			name = Release;
+		};
+		66DF4F2E29AC6DDF00FDCFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4K6Q94R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.TotoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Totoro;
+			};
+			name = Debug;
+		};
+		66DF4F2F29AC6DDF00FDCFFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP4K6Q94R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daria.TotoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Totoro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DF4EF829AC6DDD00FDCFFE /* Build configuration list for PBXProject "Totoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DF4F2529AC6DDF00FDCFFE /* Debug */,
+				66DF4F2629AC6DDF00FDCFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DF4F2729AC6DDF00FDCFFE /* Build configuration list for PBXNativeTarget "Totoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DF4F2829AC6DDF00FDCFFE /* Debug */,
+				66DF4F2929AC6DDF00FDCFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DF4F2A29AC6DDF00FDCFFE /* Build configuration list for PBXNativeTarget "TotoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DF4F2B29AC6DDF00FDCFFE /* Debug */,
+				66DF4F2C29AC6DDF00FDCFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DF4F2D29AC6DDF00FDCFFE /* Build configuration list for PBXNativeTarget "TotoroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DF4F2E29AC6DDF00FDCFFE /* Debug */,
+				66DF4F2F29AC6DDF00FDCFFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DF4EF529AC6DDD00FDCFFE /* Project object */;
+}
